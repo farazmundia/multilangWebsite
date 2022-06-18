@@ -165,6 +165,18 @@ i.fas.fa-chevron-down {
     margin: 0px !important;
     padding: 0px !important;
   }
+  footer
+    .uk-child-width-1-2\@s.uk-child-width-1-5\@m.uk-flex.uk-grid.uk-grid-stack {
+    display: none;
+  }
+
+  .uk-width-1-2\@m.in-copyright-text.uk-grid-margin.uk-first-column p {
+    text-align: center;
+  }
+
+  .uk-width-1-2\@m.uk-text-right\@m.in-footer-socials.uk-grid-margin.uk-first-column {
+    text-align: center;
+  }
 }
 
 @media (min-width: 1200px) {
