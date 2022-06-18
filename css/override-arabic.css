@@ -213,6 +213,9 @@ i.fas.fa-chevron-down {
 
   .minimizeborder .uk-first-column {
     border: none;
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
   }
 
   .minimizeborder .firstminimize span.in-icon-wrap.circle.large {
