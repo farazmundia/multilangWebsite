@@ -177,8 +177,9 @@ i.fas.fa-chevron-down {
   .uk-width-1-2\@m.uk-text-right\@m.in-footer-socials.uk-grid-margin.uk-first-column {
     text-align: center;
   }
-  .uk-slideshow-items > * {
-    position: relative !important;
+
+  ul.uk-slideshow-items {
+    min-height: 600px !important;
   }
 
   .in-slideshow .uk-position-center.slidercoltwo {
@@ -187,6 +188,7 @@ i.fas.fa-chevron-down {
     position: relative !important;
     opacity: 1 !important;
   }
+
   .uk-position-center.slidercoltwo img {
     height: 400px !important;
     object-fit: cover;
