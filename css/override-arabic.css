@@ -109,6 +109,56 @@ i.fas.fa-chevron-down {
   .uk-navbar-left {
     width: 50%;
   }
+
+  .minimize .uk-grid-margin.uk-first-column {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .minimize .uk-grid-margin.uk-first-column .firstminimize,
+  .minimize .uk-grid-margin.uk-first-column .secondminimize {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .minimize .uk-grid-margin.uk-first-column .firstminimize {
+    flex-basis: 33%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .minimize .uk-grid-margin.uk-first-column .secondminimize {
+    flex-basis: 66%;
+  }
+
+  .minimize .uk-grid-margin.uk-first-column .secondminimize h4 {
+    margin-bottom: 0px;
+    text-align: right;
+  }
+
+  .minimize .uk-grid-margin.uk-first-column .secondminimize p {
+    margin-bottom: 10px;
+  }
+
+  .minimize .uk-grid-margin.uk-first-column {
+    border: 1px solid #ccc;
+    padding: 10px 10px;
+    border-radius: 10px;
+  }
+
+  .minimize {
+    margin-left: 0px;
+  }
+
+  .minimize .uk-grid-margin.uk-first-column .secondminimize a {
+    text-align: right;
+  }
+
+  .minimize .uk-width-1-1.uk-first-column {
+    padding: 0px;
+  }
 }
 
 @media (min-width: 1200px) {
