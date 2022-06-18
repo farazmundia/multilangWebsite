@@ -200,6 +200,26 @@ i.fas.fa-chevron-down {
   .uk-navbar-toggle {
     min-height: 70px !important;
   }
+  .slidercolone h1 {
+    text-align: center;
+  }
+
+  .slidercolone .in-slideshow-button,
+  .slidercolone p {
+    text-align: center;
+  }
+
+  .minimizeborder .uk-first-column {
+    border: none;
+  }
+
+  .minimizeborder .firstminimize span.in-icon-wrap.circle.large {
+    width: 60px;
+    height: 60px;
+  }
+  .minimizeborder .uk-first-column {
+    margin-top: 0px;
+  }
 }
 
 @media (min-width: 1200px) {
