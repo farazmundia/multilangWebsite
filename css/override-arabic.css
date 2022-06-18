@@ -177,6 +177,21 @@ i.fas.fa-chevron-down {
   .uk-width-1-2\@m.uk-text-right\@m.in-footer-socials.uk-grid-margin.uk-first-column {
     text-align: center;
   }
+  .uk-slideshow-items > * {
+    position: relative !important;
+  }
+
+  .in-slideshow .uk-position-center.slidercoltwo {
+    top: unset !important;
+    transform: unset !important;
+    position: relative !important;
+    opacity: 1 !important;
+  }
+  .uk-position-center.slidercoltwo img {
+    height: 400px !important;
+    object-fit: cover;
+    object-position: left;
+  }
 }
 
 @media (min-width: 1200px) {
