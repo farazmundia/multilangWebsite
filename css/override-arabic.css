@@ -110,39 +110,40 @@ i.fas.fa-chevron-down {
     width: 50%;
   }
 
-  .minimize .uk-grid-margin.uk-first-column {
+  .minimize .uk-first-column {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
   }
 
-  .minimize .uk-grid-margin.uk-first-column .firstminimize,
-  .minimize .uk-grid-margin.uk-first-column .secondminimize {
+  .minimize .uk-first-column .firstminimize,
+  .minimize .uk-first-column .secondminimize {
     display: flex;
     flex-direction: column;
   }
 
-  .minimize .uk-grid-margin.uk-first-column .firstminimize {
+  .minimize .uk-first-column .firstminimize {
     flex-basis: 33%;
     justify-content: center;
     align-items: center;
   }
 
-  .minimize .uk-grid-margin.uk-first-column .secondminimize {
+  .minimize .uk-first-column .secondminimize {
     flex-basis: 66%;
   }
 
-  .minimize .uk-grid-margin.uk-first-column .secondminimize h4 {
+  .minimize .uk-first-column .secondminimize h4 {
     margin-bottom: 0px;
     text-align: right;
   }
 
-  .minimize .uk-grid-margin.uk-first-column .secondminimize p {
+  .minimize .uk-first-column .secondminimize p {
     margin-bottom: 10px;
+    text-align: right;
   }
 
-  .minimize .uk-grid-margin.uk-first-column {
+  .minimize .uk-first-column {
     border: 1px solid #ccc;
     padding: 10px 10px;
     border-radius: 10px;
@@ -152,7 +153,7 @@ i.fas.fa-chevron-down {
     margin-left: 0px;
   }
 
-  .minimize .uk-grid-margin.uk-first-column .secondminimize a {
+  .minimize .uk-first-column .secondminimize a {
     text-align: right;
   }
 
