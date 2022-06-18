@@ -223,6 +223,13 @@ i.fas.fa-chevron-down {
   .in-slideshow .in-slideshow-button .uk-button {
     width: 100%;
   }
+  .minimize .uk-first-column {
+    margin-top: 10px;
+  }
+
+  .minimize .uk-first-column .secondminimize p {
+    margin-top: 0px;
+  }
 }
 
 @media (min-width: 1200px) {
