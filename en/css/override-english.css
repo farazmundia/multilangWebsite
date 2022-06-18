@@ -1,0 +1,18 @@
+
+.uk-sticky.uk-active a.uk-logo {
+    background: url('../img/main-logo.png') !important;
+}
+
+.uk-sticky.uk-active .uk-logo img {
+    display: block !important;
+    height: 60px !important;
+}
+
+
+
+@media only screen and (max-width:767px) {
+    
+    .uk-navbar-left {
+    width: 50%;
+}
+}
