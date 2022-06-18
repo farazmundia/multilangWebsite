@@ -192,6 +192,14 @@ i.fas.fa-chevron-down {
     object-fit: cover;
     object-position: left;
   }
+  a.uk-logo img {
+    height: 40px;
+  }
+  .uk-navbar-item,
+  .uk-navbar-nav > li > a,
+  .uk-navbar-toggle {
+    min-height: 70px !important;
+  }
 }
 
 @media (min-width: 1200px) {

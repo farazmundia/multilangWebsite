@@ -79,4 +79,12 @@
   .uk-width-1-2\@m.uk-text-right\@m.in-footer-socials.uk-grid-margin.uk-first-column {
     text-align: center;
   }
+  a.uk-logo img {
+    height: 40px;
+  }
+  .uk-navbar-item,
+  .uk-navbar-nav > li > a,
+  .uk-navbar-toggle {
+    min-height: 70px !important;
+  }
 }
