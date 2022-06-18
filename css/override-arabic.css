@@ -220,6 +220,9 @@ i.fas.fa-chevron-down {
   .minimizeborder .uk-first-column {
     margin-top: 0px;
   }
+  .in-slideshow .in-slideshow-button .uk-button {
+    width: 100%;
+  }
 }
 
 @media (min-width: 1200px) {

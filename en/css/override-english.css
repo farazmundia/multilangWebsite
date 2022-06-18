@@ -107,4 +107,7 @@
   .minimizeborder .uk-first-column {
     margin-top: 0px;
   }
+  .in-slideshow .in-slideshow-button .uk-button {
+    width: 100%;
+  }
 }
